@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tharuka Lakshan — Senior Software Engineer</title>
+<meta name="description" content="Tharuka Lakshan — Senior Software Engineer building production systems that empower companies, and personal tools like the Prompt Library." />
+<meta name="theme-color" content="#05050a" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Tharuka Lakshan — Senior Software Engineer" />
+<meta property="og:description" content="I build systems that empower companies — then go build more for fun." />
+<meta property="og:url" content="https://heytharuka.online" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+
+<div class="noise"></div>
+<div class="bg-blob blob-a"></div>
+<div class="bg-blob blob-b"></div>
+<div class="bg-blob blob-c"></div>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">TH<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-nav>About</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#contact" data-nav>Contact</a>
+      <a href="https://prompts.heytharuka.online" target="_blank" rel="noopener" class="nav-cta">Prompt Library ↗</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">SENIOR SOFTWARE ENGINEER · BUILDER</p>
+        <h1 class="reveal">
+          Hi, I'm <span class="grad-text">Tharuka</span>.<br />
+          I build systems that <span class="underline-grad">empower companies</span>.
+        </h1>
+        <p class="hero-sub reveal">
+          By day I design and ship production backends, real-time systems, and infrastructure
+          that companies actually run their business on. By night, I'm still writing code —
+          because I genuinely love building software, not just shipping it.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="https://prompts.heytharuka.online" target="_blank" rel="noopener" class="btn btn-ghost">
+            Try Prompt Library <span class="arrow">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-panel reveal">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+            <span class="terminal-title">tharuka@heytharuka:~</span>
+          </div>
+          <div class="terminal-body" id="terminalBody">
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="out">tharuka — senior engineer, systems builder, hobbyist coder</p>
+            <p><span class="prompt">$</span> cat status.txt</p>
+            <p class="out">shipping production systems. building side projects for fun.</p>
+            <p><span class="prompt">$</span> ls ./tools</p>
+            <p class="out">prompt-library/&nbsp;&nbsp;gymmy/&nbsp;&nbsp;task-server/&nbsp;&nbsp;...</p>
+            <p><span class="prompt">$</span> <span class="cursor-blink">▌</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue reveal"><span></span>scroll</div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <p class="section-tag reveal">01 · ABOUT</p>
+      <div class="about-grid">
+        <h2 class="reveal">Engineer at work. <br />Builder at heart.</h2>
+        <div class="about-copy reveal">
+          <p>
+            I'm a Senior Software Engineer who cares more about the systems behind a product
+            than the pitch deck in front of it. I design backends, real-time pipelines, and
+            infrastructure that companies depend on daily — and I hold myself to a standard
+            of reliability that goes beyond "it works on my machine."
+          </p>
+          <p>
+            Outside of work I'm still a hobbyist at the keyboard — spinning up side projects
+            purely because an idea won't leave me alone. The
+            <a href="https://prompts.heytharuka.online" target="_blank" rel="noopener">Prompt Library</a>
+            is the latest one: a tool I built for myself and decided the internet could use too.
+          </p>
+          <div class="stat-row">
+            <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Production systems shipped</span></div>
+            <div class="stat"><span class="stat-num">Full-Stack</span><span class="stat-label">Backend-leaning</span></div>
+            <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Side-project mode</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <p class="section-tag reveal">02 · PROJECTS &amp; TOOLS</p>
+      <h2 class="reveal">Things I've built</h2>
+      <p class="section-sub reveal">A mix of production systems companies rely on, and personal tools I built because I wanted them to exist.</p>
+
+      <a class="project-featured reveal" href="https://prompts.heytharuka.online" target="_blank" rel="noopener">
+        <div class="pf-copy">
+          <span class="badge badge-personal">Personal Project · Live Now</span>
+          <h3>Prompt Library</h3>
+          <p>
+            A fast, searchable home for organizing, tagging, and reusing AI prompts —
+            built because I was tired of losing good prompts in scattered notes apps.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Web App</span>
+            <span class="pill">AI Tooling</span>
+            <span class="pill">Personal Build</span>
+          </div>
+          <span class="pf-link">prompts.heytharuka.online <span class="arrow">↗</span></span>
+        </div>
+        <div class="pf-visual">
+          <div class="pf-window">
+            <div class="pf-window-bar"><span></span><span></span><span></span></div>
+            <div class="pf-window-body">
+              <div class="pf-line w-70"></div>
+              <div class="pf-line w-40 accent"></div>
+              <div class="pf-line w-90"></div>
+              <div class="pf-line w-60"></div>
+              <div class="pf-tag-mock">
+                <span>#marketing</span><span>#code</span><span>#writing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <span class="badge badge-work">Production System</span>
+          <h3>Gymmy</h3>
+          <p>End-to-end gym management platform — attendance hardware integration, member &amp; payment management, real-time dashboards and notifications.</p>
+          <div class="pill-row">
+            <span class="pill">NestJS</span>
+            <span class="pill">AWS</span>
+            <span class="pill">IoT</span>
+            <span class="pill">Real-time</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="badge badge-work">Production System</span>
+          <h3>Task Server</h3>
+          <p>A headless, Jira-like task &amp; feature management API purpose-built for autonomous AI coding agents to plan, claim, and report work.</p>
+          <div class="pill-row">
+            <span class="pill">Node.js</span>
+            <span class="pill">REST API</span>
+            <span class="pill">AI Agents</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card-more reveal">
+          <span class="badge badge-work">+ More</span>
+          <h3>...and a few others</h3>
+          <p>From scheduling tools to cross-posting platforms — I ship more than fits on one page. Ask me about the rest.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <p class="section-tag reveal">03 · TOOLBOX</p>
+      <h2 class="reveal">What I build with</h2>
+      <div class="skills-grid">
+        <div class="skill-cat reveal">
+          <h4>Backend</h4>
+          <ul>
+            <li>Node.js / NestJS</li>
+            <li>TypeScript</li>
+            <li>REST APIs</li>
+            <li>WebSockets</li>
+          </ul>
+        </div>
+        <div class="skill-cat reveal">
+          <h4>Cloud &amp; Infra</h4>
+          <ul>
+            <li>AWS (DynamoDB, S3)</li>
+            <li>Cloudflare Workers</li>
+            <li>Linux / Nginx</li>
+            <li>CI/CD · GitHub Actions</li>
+          </ul>
+        </div>
+        <div class="skill-cat reveal">
+          <h4>Frontend</h4>
+          <ul>
+            <li>React</li>
+            <li>Modern CSS</li>
+            <li>Responsive UI</li>
+          </ul>
+        </div>
+        <div class="skill-cat reveal">
+          <h4>Systems</h4>
+          <ul>
+            <li>System Design</li>
+            <li>IoT Integration</li>
+            <li>SMS / Email Automation</li>
+            <li>Real-time Pipelines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <p class="section-tag reveal">04 · CONTACT</p>
+      <h2 class="reveal">Let's build something.</h2>
+      <p class="section-sub reveal">Open to conversations about systems, products, or ideas worth building.</p>
+      <div class="contact-actions reveal">
+        <a href="mailto:tharukawapnet@gmail.com" class="btn btn-primary">Email Me</a>
+        <a href="https://github.com/tharukaCodeWorks" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Tharuka Lakshan.</span>
+    <span class="footer-sub">Built with vanilla HTML/CSS/JS — because sometimes you don't need a framework.</span>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
