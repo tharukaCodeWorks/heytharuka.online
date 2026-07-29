@@ -31,7 +31,7 @@ jobs:
 
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/id_ed25519" \
-            index.html assets/ \
+            index.html assets \
             ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/
 
       - name: Deployment summary
