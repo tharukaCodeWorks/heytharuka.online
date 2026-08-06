@@ -30,6 +30,14 @@
 
 <div class="progress-bar" id="progressBar"></div>
 
+<div class="hex-cursor" id="hexCursor" aria-hidden="true">
+  <svg viewBox="0 0 100 100">
+    <polygon class="hex-outer" points="50,4 92,27 92,73 50,96 8,73 8,27" />
+    <polygon class="hex-inner" points="50,28 70,39 70,61 50,72 30,61 30,39" />
+  </svg>
+  <span class="hex-core"></span>
+</div>
+
 <header class="nav" id="nav">
   <div class="nav-inner">
     <a href="#top" class="brand">TH<span class="dot">.</span></a>
